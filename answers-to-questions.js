@@ -255,18 +255,44 @@
 // Q 22
 // function myFunction(num1, num2) {
 //   let result = num1+num2
-//   return result
+// //   return result
+// // }
+
+// let result = 0
+// // myFunction(100, 2)
+// // console.log(result)
+//  // output is 0 because we declare the result =0  
+//  //Q 23
+//  function myFunction(num1, num2) {
+//   result = num1+num2
 // }
 
 // let result = 0
 // myFunction(100, 2)
 // console.log(result)
- // output is 0 because we declare the result =0  
- //Q 23
- function myFunction(num1, num2) {
-  result = num1+num2
-}
 
-let result = 0
-myFunction(100, 2)
-console.log(result)
+// Q24
+//     function myFunction(num1, num2) {
+//     const result = num1+num2
+//     return 100
+//   }
+  
+//   const result = myFunction(5, 2)
+//   console.log(result)
+//   rives out 100 because that is the function thats returned.
+// Q25
+function myFunction(a) {
+    let b = 20
+    
+    console.log("a:", a)
+    console.log("b:", b)
+    console.log("c:", c)
+  }
+  
+  let a = 1
+  let b = 2
+  let c = 3
+  
+  myFunction(100)
+
+//   the value in my function is assighned to a then the rest in order of run.
