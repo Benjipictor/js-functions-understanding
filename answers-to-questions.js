@@ -110,27 +110,163 @@
   //   because its only printing the vaue assighned to num3 it dosent do anything else.
 
 // Q10
-function myFunction(num1, num2, num3) {
-    console.log(num3)
-  }
+// function myFunction(num1, num2, num3) {
+//     console.log(num3)
+//   }
   
-  const num1 = 10
-  const num2 = 1
-  const num3 = 20
+//   const num1 = 10
+//   const num2 = 1
+//   const num3 = 20
   
-  myFunction(num3, num1, 100)
-console.log(myFunction)
+//   myFunction(num3, num1, 100)
+// console.log(myFunction)
   //   because theires only a fixed value 
 
 //   Q11
-  function myFunction(num1, num2, num3) {
-    return num1 + num2 + num3
-  }
+//   function myFunction(num1, num2, num3) {
+//     return num1 + num2 + num3
+//   }
   
-  const num1 = 10
-  const num2 = 1
-  const num3 = 20
+//   const num1 = 10
+//   const num2 = 1
+//   const num3 = 20
   
-  const result = myFunction(1, 1, 1)
+//   const result = myFunction(1, 1, 1)
+// console.log(result)
+//   // output is 3 because we are only addtion the value
 
-  
+// function getSomeValue() {
+//   return 2
+// }
+
+// function myFunction(num1) {
+//   const num2 = getSomeValue()
+//   return num1 * num2
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+// // output is 10 because getSomeVlue()is call inside the myFunction()and calulating the result
+
+
+//Q 13
+// function getSomeValue() {
+//   return 2
+// }
+
+// function myFunction(num1) {
+//   const num2 = getSomeValue()
+//   return num1 * getSomeValue()
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+// result is 10 because num1 is 5 *getSomeValue()is 2 is calculating 
+//Q14
+// function getSomeValue() {
+//   return 2
+// }
+
+// function myFunction(num1) {
+//   return getSomeValue() * getSomeValue()
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+//result is 4 because calling the function getSomeValue() and multiplication done
+
+//Q 15
+// function myFunction(num1) {
+//   if(true) {
+//     return -10
+//   }
+
+//   return num1 * 10
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+// // output - 10 because if condition is true 
+
+//Q 16
+// function myFunction(num1) {
+//   if(false) {
+//     return -100
+//   }
+
+//   return num1 * 10
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+// resul is 50 because if condition is false it calculating the num1 *10 
+//Q 17
+// function myFunction(num1) {
+//   return -100
+
+//   return num1 * 10
+// }
+
+// const result = myFunction(5)
+// console.log (result)
+// output is -100 because first  return line is run
+//Q 18
+// function myFunction(num1) {
+
+//   return num1 * 10
+
+//   return -100
+// }
+
+// const result = myFunction(5)
+// console.log(result)
+// output is 50 because it return num1 *10
+//Q19 
+// function myFunction(num1, num2, num3) {
+//   return num2
+// }
+
+// const result = myFunction(5, 10, 15)
+// console.log(result)
+// output is 10 because it return num2 
+//Q 20
+// function myFunction(num1, num2, num3) {
+//   return num1 + num3
+// }
+
+// const num1 = 20
+// const num2 = 200
+// const num3 = 1000
+
+// const result = myFunction(5, 10, num3, 15)
+// console.log(result)
+//output is 1005
+//Q 21
+// function myFunction(num1, num2) {
+//   const result = num1+num2
+//   return result
+// }
+
+// const result = myFunction(10, 20)
+// myFunction(100, 2)
+// console.log(result)
+// output is 30 because num1 +num2
+
+// Q 22
+// function myFunction(num1, num2) {
+//   let result = num1+num2
+//   return result
+// }
+
+// let result = 0
+// myFunction(100, 2)
+// console.log(result)
+ // output is 0 because we declare the result =0  
+ //Q 23
+ function myFunction(num1, num2) {
+  result = num1+num2
+}
+
+let result = 0
+myFunction(100, 2)
+console.log(result)
